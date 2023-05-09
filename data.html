@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        .btn {
+        background: #f5f5f5;
+        background-image: -webkit-linear-gradient(top, #f5f5f5, #cdd7de);
+        background-image: -moz-linear-gradient(top, #f5f5f5, #cdd7de);
+        background-image: -ms-linear-gradient(top, #f5f5f5, #cdd7de);
+        background-image: -o-linear-gradient(top, #f5f5f5, #cdd7de);
+        background-image: linear-gradient(to bottom, #f5f5f5, #cdd7de);
+        -webkit-border-radius: 15;
+        -moz-border-radius: 15;
+        border-radius: 15px;
+        font-family: Georgia;
+        color: #000;
+        margin: 10px;
+        width: 20rem;
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+        text-decoration: none;
+        font-family: cursive;
+      }
+    
+      input{
+        border: none;
+        padding: 1.5rem;
+        font-size: 20px;
+        margin: 2rem;
+        border-radius: 15px;
+      }
+
+    body{
+        font-family: cursive;
+    }
+
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Ready to play!</h1>
+          <p class="lead">Just enter your name and click play to start the game</p>
+        <div class='container-1'>
+        <form>
+        <input type="text" name="username" id="username">
+        </form>
+        <a class='btn' type="submit" href="play.html">play</a>
+        </div>
+
+           <!-- <a class='btn' href="high score">high score</a>-->
+        </div>
+    </div>   
+    <script src="end.js"></script> 
+</body>
+</html>

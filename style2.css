@@ -1,0 +1,33 @@
+body{
+    background-color: #E0E0E2;
+}
+
+h1{
+    color: #721817;
+}
+
+h2{
+    color: #721817;
+}
+
+.center-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2>span{
+    color: #fa9f42;
+    font-size: 1em;
+}
+
+#copyright{
+    padding-top: 12px;
+    size: 10rem;
+}
